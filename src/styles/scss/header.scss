@@ -4,7 +4,7 @@ $caption-min-height: 5vh;
 .header {
   display: flex;
   justify-content: space-between;
-  border: 0.5px solid #000000;
+  border: 0.5px solid transparent;
   height: $header-height;
   background-color: #5C524D;
   padding: 0 130px;
@@ -165,7 +165,7 @@ $caption-min-height: 5vh;
     height: 100vh;
     top: 225px;
     left: 0;
-    background-color: red;
+    background-color: #5C524D;
     overflow: scroll;
     //height: 100vh;
     border-left: 1px solid whitesmoke;

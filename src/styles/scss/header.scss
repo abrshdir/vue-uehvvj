@@ -168,7 +168,6 @@ $caption-min-height: 5vh;
     background-color: #5C524D;
     overflow: scroll;
     //height: 100vh;
-    border-left: 1px solid whitesmoke;
     z-index: 1000;
     .nav-links {
       display: flex;
@@ -182,9 +181,9 @@ $caption-min-height: 5vh;
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
     .mobileMenu{
-      top: 165px !important;
+      top: 165px;
     }
 }
 

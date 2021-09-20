@@ -58,7 +58,7 @@ header h2 {
   }
 }
 
-@media (min-width: 415px) and (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 415px) {
   dialog {
     width: 582px;
     height: 339px;

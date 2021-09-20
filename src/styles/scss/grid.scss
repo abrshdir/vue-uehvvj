@@ -29,17 +29,13 @@
 @media (max-width: 768px) and (min-width: 415px) {
   .container {
     padding: 0 32px;
-
     .row {
-      //padding: 10px 0;
       display: flex;
       justify-content: start;
       margin-top: 64px;
-
       .col-1 {
         width: 40%;
       }
-
       .col-2 {
         width: 60%;
         margin-left: 94px;
@@ -49,9 +45,9 @@
 
   img {
     width: -webkit-fill-available;
-    //max-width: 400px;
     height: auto;
   }
+
 }
 
 @media (max-width: 415px) {

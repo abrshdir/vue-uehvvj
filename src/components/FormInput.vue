@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-1">
-                <img src="src/assets/Profile.png" alt="image">
+                <img src="../assets/Profile.png" alt="image">
             </div>
             <div class="col-2">
                 <div class="form-group">

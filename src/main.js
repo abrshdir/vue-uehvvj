@@ -11,7 +11,7 @@ import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
 import { faCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import router from "./router";
+
 import Dialog from "./components/Dialog";
 const app = createApp(App);
 
@@ -25,5 +25,4 @@ library.add(faCheckCircle)
 library.add(faBars)
 app.component('base-dialog', Dialog)
 app.component('font-awesome-icon', FontAwesomeIcon)
-app.use(router)
 app.mount('#app')

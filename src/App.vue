@@ -14,8 +14,5 @@
 </script>
 
 <style lang="scss">
-    body{
-        margin: 0;
-        font-family: 'Almarai', sans-serif;
-    }
+    @import "./styles/main.scss";
 </style>

@@ -20,6 +20,8 @@
   unicode-range: U+000-5FF;
   src: url("assets/fonts/Almarai/Almarai-Bold.ttf") format("ttf"), url("assets/fonts/Almarai/Almarai-Regular.ttf") format("ttf"), url("assets/fonts/Almarai/Almarai-ExtraBold.ttf") format("ttf");
 }
-//* {
-//  box-sizing: border-box;
-//}
+
+body{
+  margin: 0;
+  font-family: 'Almarai', sans-serif;
+}

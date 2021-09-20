@@ -3,7 +3,7 @@
         <div v-if="show" @click="$emit('close')" class="backdrop"></div>
         <transition name="dialog">
             <dialog open v-if="show">
-                <img src="https://i.imgur.com/usWJfwN.png" alt="image">
+                <img src="../assets/clapping.png" alt="image">
                 <header>
                     <h2>Great Job!</h2>
                 </header>

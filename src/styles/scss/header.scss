@@ -184,7 +184,7 @@ $caption-min-height: 5vh;
 
 @media (max-width: 414px) {
     .mobileMenu{
-      top: 165px;
+      top: 165px !important;
     }
 }
 

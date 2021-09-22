@@ -1,17 +1,17 @@
 <template>
         <ul class="nav-links">
-            <li>
+            <a data-ref="#Dashboard">
                 Dashboard
-            </li>
-            <li class="active">
+            </a>
+            <a class="active" data-href="#account">
                 Account
-            </li>
-            <li>
+            </a>
+            <a data-href="#help">
                 Help
-            </li>
-            <li v-show="logout">
+            </a>
+            <a data-href="#logout" v-show="logout">
                 Logout
-            </li>
+            </a>
         </ul>
 </template>
 

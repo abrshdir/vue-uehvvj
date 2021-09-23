@@ -75,9 +75,7 @@
                                    style=" color: #FC732F; font-size: 16px; line-height: 40px; font-weight: 800; padding-right: 10px"/>
                 Cancel</a>
         </div>
-        <base-dialog :show="openModal" @close="closeModal" title="An error occurred">
-            <p>{{ error }}</p>
-        </base-dialog>
+        <base-dialog :show="openModal" @close="closeModal" />
         <br>
     </div>
 </template>

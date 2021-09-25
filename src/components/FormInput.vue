@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-1">
-                <img src="@/assets/Profile.png" alt="image">
+                <img src="https://raw.githubusercontent.com/abrshdir/abrshdir.github.io/main/img/Profile.8b306fd8.png" alt="image">
             </div>
             <div class="col-2">
                 <div class="form-group">

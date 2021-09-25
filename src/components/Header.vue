@@ -24,7 +24,7 @@
             <h1 className="main-navigation__title logo">
                 <font-awesome-icon :icon="['fab', 'rocketchat']"
                                    style=" color: #FC732F; line-height: 40px; font-weight: 800; padding-right: 16px"/>
-                <span style="color: #FC732F"><span style="color: #FFFFFF">Logo</span>Ipsum</span>
+                <span style="color: #FC732F">Ipsum<span style="color: #FFFFFF">Logo</span></span>
             </h1>
 
             <nav class="mobileMenu" :style="{display: drawerOpened ? 'block': 'none'}">

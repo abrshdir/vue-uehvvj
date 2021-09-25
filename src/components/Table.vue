@@ -66,11 +66,11 @@
             </table>
         </div>
         <div class="buttons">
-            <a @click="tryOpen" class="block-btn button2">
+            <a @click="tryOpen" class="block-btn btn">
                 <font-awesome-icon icon="exchange-alt"
                                    style="color: #FFFFFF; font-size: 16px; line-height: 40px; font-weight: 800; padding-right: 10px"/>
                 Update Configuration</a>
-            <a href="#" class="outline-btn button2">
+            <a href="#" class="outline-btn btn">
                 <font-awesome-icon icon="times"
                                    style=" color: #FC732F; font-size: 16px; line-height: 40px; font-weight: 800; padding-right: 10px"/>
                 Cancel</a>
